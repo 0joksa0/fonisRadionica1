@@ -5,6 +5,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/* CSS for nav section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -33,4 +35,60 @@ nav{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+
+/* CSS for hero section */
+.hero{
+    height: 90vh;
+    background-image: linear-gradient(86deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 43%, rgba(0,0,0,0.87) 60%, rgba(0,0,0,0.79) 100%),url(./images/naslovnaSlika.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heroEl{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 10%;
+    height: 100%;
+    width: 100%;
+}
+.heroEl > img{
+    width: 40%;
+}
+
+.heroEl > button{
+    position: relative;
+    padding: 0.8rem 4rem 0.8rem 2rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.heroEl > button:hover{
+    background-color: white;
+    color: black;
+}
+
+.heroEl > button:after{
+    content: '➤';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5%;
+}
+
+.heroEl > button:hover:after{
+    color: black; 
 }

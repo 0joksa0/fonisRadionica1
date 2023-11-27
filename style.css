@@ -5,6 +5,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background-color: #121111;
+}
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
+}
 
 /* CSS for nav section */
 nav{
@@ -12,7 +18,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: #121111;
     padding: 1rem 10%;
 }
 
@@ -61,7 +66,7 @@ nav{
     width: 40%;
 }
 
-.heroEl > button{
+button{
     position: relative;
     padding: 0.8rem 4rem 0.8rem 2rem;
     font-size: 1.5rem;
@@ -73,12 +78,12 @@ nav{
     transition: all 0.3s ease;
 }
 
-.heroEl > button:hover{
+button:hover{
     background-color: white;
     color: black;
 }
 
-.heroEl > button:after{
+button:after{
     content: '➤';
     font-size: 1.5rem;
     font-weight: bold;
@@ -89,6 +94,42 @@ nav{
     right: 5%;
 }
 
-.heroEl > button:hover:after{
+button:hover:after{
     color: black; 
+}
+
+/* CSS for about section */
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 5rem;
+    color: white;
+}
+
+.aboutUs > h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.aboutUs > p{
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.aboutUsImgHolder{
+    width: 100vw;
+}
+
+.aboutUsImgHolder > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutUs > button{
+    scale: 0.8;
 }

@@ -110,7 +110,7 @@ button:hover:after{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5rem;
+    padding-top: 5rem;
     gap: 5rem;
     color: white;
 }
@@ -140,7 +140,8 @@ button:hover:after{
 
 .shop{
     width: 80%;
-    margin: 5rem auto;
+    margin: 0 auto;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

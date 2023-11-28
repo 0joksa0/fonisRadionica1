@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #121111;
+    overflow-x: hidden;
+}
+p, h1, h2, h3, h4, h5, h6, label{
+    color: white;
+}
+
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* CSS for form section */
+
+img{
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 1rem 0;
+    margin-top: 10vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form select, form, button, form textarea, form input:not([type =radio]){
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+form label{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0 0 0;
+}
+
+.radioButtons{
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.radioButtons input{
+    margin: 0 1rem 0 0;
+}
+
+button{
+    position: relative;
+    padding: 0.8rem 4rem 0.8rem 2rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+button:after{
+    content: '➤';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5%;
+}
+
+button:hover:after{
+    color: black; 
+}

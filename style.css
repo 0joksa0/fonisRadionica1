@@ -24,11 +24,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    padding: 1rem 10%;
+    padding: 1.5rem 10%;
 }
 
 .navImg{
-    height: 50px;
+    height: 40px;
 }
 
 .nav-links{

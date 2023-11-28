@@ -185,3 +185,72 @@ button:hover:after{
 .shopItem > h4{
     font-size: 1.5rem;
 }
+
+/* css comment section */
+
+.comments{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    color: white;
+}
+
+.commentsHolder{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.comment{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment > p{
+    position: relative;
+    color: black;
+    font-size: 1.7rem;
+    width: 22vw;
+    text-align: center;
+    padding: 2rem;
+}
+
+.comment > p::before{
+    content: '"';
+    font-size: 3rem;
+    color: #121111;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.comment > p::after{
+    content: '"';
+    font-size: 3rem;
+    color: #121111;
+    position: absolute;
+    bottom: -1rem;
+    right: 1rem;
+}
+
+.comment > div{
+    padding: 2rem 1rem;
+    width: 100%;
+    background-color: #FAA61A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.comment > div > h4{
+    font-size: 1.5rem;
+    color: white;
+}

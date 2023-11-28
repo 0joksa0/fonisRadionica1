@@ -50,6 +50,10 @@ form label{
     padding: 1rem 0 0 0;
 }
 
+#Product{
+    font-size: 2rem;
+}
+
 .radioButtons{
     width: 50%;
     margin: 1rem auto;

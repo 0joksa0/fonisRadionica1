@@ -13,19 +13,19 @@
             <img src="./images/FONIS - logo - beli.png" alt="FNOIS" class = "navImg">
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">O nama</a></li>
-            <li><a href="form.html">Shop</a></li>
-            <li><a href="about.html">Utisci</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="#aboutUs">O nama</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#comments">Utisci</a></li>
+            <li><a href="#">Kontakt</a></li>
         </ul>
     </nav>
     <div class="hero">
         <div class="heroEl">
             <img src="./images/LOGO.png" alt="FONIS SHOP">
-            <button>Trenutno dostupno</button>
+            <button onclick="location.href = './form.html'">Trenutno dostupno</button>
         </div>
     </div>
-    <div class="aboutUs">   
+    <div class="aboutUs" id="aboutUs">   
         <h1>O NAMA</h1>
         <p>Udruženje studenata informatike FONIS predstavlja ujedinjujuću tačku i mesto za stvaranje novih i širenje postojećih znanja iz oblasti informacionih tehnologija između mladih i entuzijastičnih studenata sa Fakulteta organizacionih nauka.</p>
         <button>Saznajte jos</button>
@@ -33,29 +33,29 @@
             <img src="./images/oNamaSlika.png" alt="FONIS SHOP">
         </div>
     </div>
-    <div class="shop">
+    <div class="shop" id="shop" >
         <h1>SHOP</h1>
         <h3>Trenutno dostupno</h3>
         <div class="shopItems">
             <div class="shopItem">
                 <img src="./images/duksSlika.png" alt="DUKSER">
                 <h4>FONIS dukser</h4>
-                <button>Porucite</button>
+                <button onclick="location.href='./form.html?product=duks ' ">Porucite</button>
             </div>
             <div class="shopItem">
                 <img src="./images/majicaSlika.png" alt="MAJICA">
                 <h4>FONIS majica</h4>
-                <button>Porucite</button>
+                <button onclick="location.href='./form.html?product=majica ' ">Porucite</button>
             </div>
             <div class="shopItem">
                 <img src="./images/solje.jpg" alt="SOLJA">
                 <h4>S2S solja</h4>
-                <button>Porucite</button>
+                <button onclick="location.href='./form.html?product=solja ' ">Porucite</button>
             </div>
         </div>
     </div>
 
-    <div class="comments">
+    <div class="comments" id="comments">
         <h1>UTISCI</h1>
         <div class="commentsHolder">
             <div class="comment">
